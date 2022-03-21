@@ -144,15 +144,15 @@ form input {
 }
 
 footer {
-  position: fixed;
-  left: 0;
+  position: absolute;
+  font-size: 22px;
+  font-weight: bold;
   bottom: 0;
-  width: 100%;
-  color: #333;
-  border: 2px #333 solid;
+  right: 0;
+  left: 0;
   height: 60px;
-  padding: 20px 48px;
-  margin-left: 20px;
-  margin-top: 30px;
+  border: 3px solid #333;
   border-radius: 4px;
+  padding: 10px 40px;
+  margin: 20px;
 }

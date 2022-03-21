@@ -1,8 +1,8 @@
 # microverse-m2-Awesome-books-es6
 
-> This project is about building Awsome Books using JavaScript
+> This project is about building Awesome Books using JavaScript and a copy of my awesome books project build by using ES6 syntax and modules.
 
-![Awesome Books design (20)](Screenshot.png)
+![Awesome Books design](Screenshot.png)
 
 ## Live demo
 
