@@ -7,8 +7,145 @@
 
 body {
   font-family: 'Comic Neue', sans-serif;
-  background-color: beige;
+  background-color: #fff;
   color: #333;
   padding: 20px 10px;
   margin: 20px;
+}
+
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+  color: unset;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 3px solid #fff;
+}
+
+.date {
+  width: 100%;
+  margin: 15px 0;
+  text-align: right;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 12px;
+}
+
+.nav-links a:not(.active):hover {
+  border-bottom: 3px solid #333;
+}
+
+.home {
+  display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.books-list {
+  width: 100%;
+  border: 2px solid #333;
+  margin: 18px 0;
+}
+
+.books-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.books-list li:nth-child(odd) {
+  background-color: #777;
+}
+
+button {
+  border: 3px solid #333;
+  background-color: #fff;
+  color: #333;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+.form-container {
+  display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+form {
+  margin: 40px 0 18px 0;
+  width: 50%;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  border: 3px solid #333;
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+}
+
+.btn-submit {
+  float: right;
+}
+
+.contact {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+.contact p {
+  margin: 40px 0 18px 0;
+}
+
+.info {
+  list-style-type: circle;
+}
+
+.flex {
+  display: flex;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #333;
+  border: 2px #333 solid;
+  height: 60px;
+  padding: 20px 48px;
+  margin-left: 20px;
+  margin-top: 30px;
+  border-radius: 4px;
 }
