@@ -2,7 +2,7 @@
 
 > This project is about building Awesome Books using JavaScript and a copy of my awesome books project build by using ES6 syntax and modules.
 
-![Awesome Books design](![image](https://user-images.githubusercontent.com/85465559/159246177-d200e21b-2874-40f0-95f1-fd51b31474ea.png))
+![Awesome Books design](https://user-images.githubusercontent.com/85465559/159246177-d200e21b-2874-40f0-95f1-fd51b31474ea.png)
 
 ## Live demo
 
