@@ -17,6 +17,3 @@ export default class Books {
     localStorage.setItem('booksList', JSON.stringify(this.list));
   }
 }
-
-const timePara = DateTime.now().toFormat('LLL dd yyyy, hh:mm:ss a');
-document.querySelector('.date').textContent = timePara;
