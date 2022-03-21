@@ -4,10 +4,6 @@
 
 ![Awesome Books design](https://user-images.githubusercontent.com/85465559/159246177-d200e21b-2874-40f0-95f1-fd51b31474ea.png)
 
-## Live demo
-
-[Live Demo Link](https://oybekkayumov.github.io/microverse-m2-awbook-es6/)
-
 ## Built With
 
 -Lighthouse (An open-source, automated tool for improving the quality of web pages. It has audits for performance, accessibility, progressive web apps, SEO and more).
